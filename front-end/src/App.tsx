@@ -55,11 +55,6 @@ function App() {
           <h2 className="text-lg md:text-2xl font-semibold text-gray-800 mb-3">Configuration de l'indexation</h2>
           <SearchBar channelId={channelId} setChannelId={setChannelId} onSearch={searchVideos} />
 
-          {!import.meta.env.VITE_API_YT && (
-            <div className="text-amber-700 font-medium mt-3 p-2 bg-amber-100 rounded-lg text-sm">
-              Attention: Clé API YouTube non configurée. Veuillez ajouter VITE_API_YT dans votre fichier .env
-            </div>
-          )}
         </div>
 
         <div className="bg-white rounded-lg shadow-lg p-4 md:p-6 w-full mx-auto">
