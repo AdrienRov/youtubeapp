@@ -99,7 +99,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ channelId, setChannelId, onSearch
                             autoComplete="off"
                         />
                         <button
-                            className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-r flex items-center justify-center"
+                            className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 w-28 rounded-r flex items-center justify-center"
                             onClick={handleIndex}
                             disabled={!channelId}
                         >
@@ -155,7 +155,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ channelId, setChannelId, onSearch
                             disabled={!channelId}
                         />
                         <button
-                            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-r"
+                            className="bg-blue-500 hover:bg-blue-600 w-28 text-white px-4 py-2 rounded-r"
                             onClick={handleSearch}
                             disabled={!channelId}
                         >
